@@ -1,0 +1,137 @@
+{
+  "appengine_region": {
+    "sensitive": false,
+    "type": "string",
+    "value": "us-central"
+  },
+  "aws_omni_biglake_connection": {
+    "sensitive": false,
+    "type": "string",
+    "value": "bq_omni_aws_s3"
+  },
+  "aws_omni_biglake_dataset_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "aws_omni_biglake"
+  },
+  "aws_omni_biglake_dataset_region": {
+    "sensitive": false,
+    "type": "string",
+    "value": "aws-us-east-1"
+  },
+  "aws_omni_biglake_s3_bucket": {
+    "sensitive": false,
+    "type": "string",
+    "value": "REPLACE_ME_AWS_S3_BUCKET_NAME"
+  },
+  "azure_omni_biglake_adls_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "REPLACE_ME_AZURE_ADLS_NAME"
+  },
+  "azure_omni_biglake_dataset_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "azure_omni_biglake"
+  },
+  "azure_omni_biglake_dataset_region": {
+    "sensitive": false,
+    "type": "string",
+    "value": "azure-eastus2"
+  },
+  "bigquery_non_multi_region": {
+    "sensitive": false,
+    "type": "string",
+    "value": "us-central1"
+  },
+  "billing_account": {
+    "sensitive": false,
+    "type": "string",
+    "value": ""
+  },
+  "data_catalog_region": {
+    "sensitive": false,
+    "type": "string",
+    "value": "us-central1"
+  },
+  "dataplex_region": {
+    "sensitive": false,
+    "type": "string",
+    "value": "us-central1"
+  },
+  "deployment_service_account": {
+    "sensitive": false,
+    "type": "string",
+    "value": "pkklyaq-nordic-hackathon-1@pkklyaq-nordic-hackathon-1.iam.gserviceaccount.com"
+  },
+  "deployment_service_account_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": ""
+  },
+  "gcp_account_name": {
+    "sensitive": false,
+    "type": "string",
+    "value": "emil.breding@cygni.se"
+  },
+  "local_azure_omni_biglake_connection": {
+    "sensitive": false,
+    "type": "string",
+    "value": "projects/REPLACE_ME_SHARED_DEMO_PROJECT_ID/locations/azure-eastus2/connections/bq_omni_azure_adlsgen2 "
+  },
+  "local_impersonation_account": {
+    "sensitive": false,
+    "type": "string",
+    "value": "user:emil.breding@cygni.se"
+  },
+  "multi_region": {
+    "sensitive": false,
+    "type": "string",
+    "value": "us"
+  },
+  "org_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "0"
+  },
+  "project_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "pkklyaq-nordic-hackathon-1"
+  },
+  "project_number": {
+    "sensitive": false,
+    "type": "string",
+    "value": "614415369016"
+  },
+  "random_string": {
+    "sensitive": false,
+    "type": "string",
+    "value": "08ez4cu3of"
+  },
+  "region": {
+    "sensitive": false,
+    "type": "string",
+    "value": "us-central1"
+  },
+  "shared_demo_project_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "REPLACE_ME_SHARED_DEMO_PROJECT_ID"
+  },
+  "terraform-output-bucket": {
+    "sensitive": false,
+    "type": "string",
+    "value": "data-beans-code-08ez4cu3of"
+  },
+  "vertex_ai_region": {
+    "sensitive": false,
+    "type": "string",
+    "value": "us-central1"
+  },
+  "zone": {
+    "sensitive": false,
+    "type": "string",
+    "value": "us-central1-a"
+  }
+}
